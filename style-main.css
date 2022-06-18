@@ -1,0 +1,99 @@
+:root {
+    color-scheme: only light;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBECF0;
+    background-image: url("images/Atrium.jpg");
+    background-size: cover;
+}
+
+.container {
+      background-color: #EBECF0;
+      height:100%;
+      margin-top: 120px;
+      margin-bottom: 120px;
+      padding: 30px;
+}
+
+header {
+    margin: -10px 5px 5px 5px;
+}
+
+#home h1 img {
+    width: 130px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin-top: 30px;
+
+    display: inline;
+    color: black;
+}
+
+#headerText {
+    font-size: 45px;
+}
+
+/* nav bar stripes adapted from: https://css-tricks.com/stripes-css/ */
+nav {
+    background: repeating-linear-gradient(
+        -20deg,
+        rgba(198, 199, 205, 0.2),
+        rgba(198, 199, 205, 0.2) 5px,
+        rgba(53, 115, 250, 0.2) 5px,
+        rgba(53, 115, 250, 0.2) 10px
+      );
+    margin: 10px 0;
+}
+
+.brand {
+    background-color: #EBECF0;
+    font-size: 17px;
+    margin: -10px 5px 5px 5px;
+}
+
+.brandIcons img {
+    height: 70px;
+    width: 70px;
+    margin-right: 25px;
+}
+
+.projects {
+    margin: 30px 0;
+}
+
+.projects img {
+    width: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.skills {
+    margin-bottom: 80px;
+}
+
+.skillsDiv img {
+    width: 70px;
+}
+
+.footer {
+    text-align: right;
+}
+
+.footer p {
+    text-align: left;
+    font-size: 12px;
+    display: inline;
+    float: left;
+}
+
+.footerHome img {
+    width: 40px;
+    float: right;
+}

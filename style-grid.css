@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 3fr auto;
+    gap: 3vmin;
+  }
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 3vmin;
+}
+
+.skillsDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 3vmin;
+}
